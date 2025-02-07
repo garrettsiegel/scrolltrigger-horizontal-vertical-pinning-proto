@@ -1,31 +1,27 @@
-@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
-
-
 body {
-	margin:0;
-	background:#15151e;
-	overflow-x:hidden;
+	margin: 0;
+	background: #15151e;
+	overflow-x: hidden;
+	font-weight: 900;
+	text-transform: capitalize;
 }
 
-
-
-.races {
-	width:fit-content;
-	display:flex;
-	flex-wrap:nowrap;
+.horiz-section {
+	width: fit-content;
+	display: flex;
+	flex-wrap: nowrap;
 }
 
-.h-box {
+.horiz-box {
 	border: 1px solid red;
 	flex-shrink: 0;
 	margin: 0;
 	width: 50vw;
 	height: 100vh;
 	background-color: #e1e1ff;
-
 }
 
-.v-box {
+.vert-box {
 	border: 1px solid blue;
 	flex-shrink: 0;
 	margin: 0;
@@ -34,44 +30,9 @@ body {
 	background-color: orange;
 }
 
-.h-box,
-.v-box {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.horiz-box,
+.vert-box {
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
-
-.races h2 {
-	font-family: 'Staatliches', cursive;
-	font-size:30vw;
-	flex-shrink:0;
-	padding-right:0.3em;
-	padding-left:0.3em;
-	color:#e10600;
-	
-	margin:0;	
-}
-
-.races h2:last-of-type {
-	background:#e1e1ff;
-}
-
-.lightBG {
-	background:#313143;
-}
-
-.space-20vh {
-	height:20vh;
-}
-
-.space-30vh {
-	height:30vh;
-}
-
-.space-50vh {
-	height:50vh;
-}
-
-/* .space-100vh {
-	height:200vh;
-} */
