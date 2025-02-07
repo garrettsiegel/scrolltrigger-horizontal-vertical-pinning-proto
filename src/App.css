@@ -13,21 +13,21 @@ body {
 }
 
 .horiz-box {
-	border: 1px solid red;
+	border: 1px solid #fff;
 	flex-shrink: 0;
 	margin: 0;
 	width: 50vw;
 	height: 100vh;
-	background-color: #e1e1ff;
+	background-color: #92977E;
 }
 
 .vert-box {
-	border: 1px solid blue;
+	border: 1px solid #000;
 	flex-shrink: 0;
 	margin: 0;
 	width: 100vw;
 	height: 100vh;
-	background-color: orange;
+	background-color: #e6e18f;
 }
 
 .horiz-box,
